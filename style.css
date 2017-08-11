@@ -9,6 +9,7 @@
 	display: flex;
 	justify-content: space-around;
 	line-height: 1.6em;
+	margin-bottom: 100px;
 }
 
 .top h1 {
@@ -31,4 +32,41 @@
 	color: white;
 	text-transform: uppercase;
 	font-weight: bold;
+}
+
+.s-row-1 {
+	display: flex;
+	justify-content: center;
+}
+
+.s-img {
+	height: 290px;
+	width: 368px;
+}
+
+.profile-text {
+	background-color: #dfdfdf;
+	padding: 10px;
+}
+
+.prof-1-img {
+	background-image: url("img/s-crater.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.profile-2 {
+	margin: 0px 10px;
+}
+
+.prof-2-img {
+	background-image: url("img/s-jupiter.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.prof-3-img {
+	background-image: url("img/s-space-walk.jpg");
+	background-position: center;
+	background-size: cover;
 }
