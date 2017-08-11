@@ -2,6 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 .top {
@@ -32,11 +33,13 @@
 	color: white;
 	text-transform: uppercase;
 	font-weight: bold;
+	font-style: Helvetica, Arial, sans-serif;
 }
 
-.s-row-1 {
+.s-row {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 50px;
 }
 
 .s-img {
@@ -45,8 +48,21 @@
 }
 
 .profile-text {
-	background-color: #dfdfdf;
+	background-color: #f2f2f2;
 	padding: 10px;
+	font-style: Helvetica, Arial, sans-serif;
+}
+
+.profile-text h3 {
+	text-transform: uppercase;
+	font-size: 12px;
+	margin: 5px;
+}
+
+.profile-text p {
+	color: gray;
+	font-size: 12px;
+	margin: 5px;
 }
 
 .prof-1-img {
@@ -67,6 +83,28 @@
 
 .prof-3-img {
 	background-image: url("img/s-space-walk.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.prof-4-img {
+	background-image: url("img/s-mars.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.profile-5 {
+	margin: 0px 10px;
+}
+
+.prof-5-img {
+	background-image: url("img/s-shuttle.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.prof-6-img {
+	background-image: url("img/s-moon.jpg");
 	background-position: center;
 	background-size: cover;
 }
