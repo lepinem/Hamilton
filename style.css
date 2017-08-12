@@ -1,4 +1,17 @@
-* {
+body{
+	background: #333333;
+	display: flex;
+	justify-content: center;
+
+}
+
+.container{
+	width: 96%;
+	box-shadow: 0 7px 12px 0 black, 0 9px 40px 0 black;
+
+}
+
+*	{
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
@@ -112,29 +125,89 @@
 .matt {
 	width: 100%;
 	background: #f9fafc;
-	color: gray;
-	display: flex;
-	justify-content: center;
+	color: #aaabb2;
 	padding-top: 10%;
 	padding-bottom: 10%;
+	line-height: 1.75;
+	font-family: "Roboto", sans-serif;
+	font-size: 1.25rem;
+	display: block;
+}
+
+header {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.empty1 {
+	width: 28%;
+	height: 5%;
+	border-style: hidden;
+}
+
+.empty2 {
+	width: 5%;
+	height: 5%;
+	border: 2px solid #aaabb2;
+}
+
+.empty3 {
+	height: 5%;
+	width: 67%;
+	border-style: hidden;
+}
+
+.matt_wrapper {
+	display: flex;
+	flex-direction: row;
+
+
+}
+
+
+.matt h2{
+	color: #46464e;
+	font-family: 'Roboto', sans-serif;
 	line-height: 1.5;
+	font-weight: 800;
+
+
 }
 
 .matt h3 {
 	color: #46464e;
+	font-family: 'Roboto',sans-serif;
+	font-weight: 800;
+	font-size: 26px;
 }
 
 .quote {
-	width: 33%;
+	width: 35%;
 	padding-left: 10%;
-	padding-right: 5%;
+	padding-right: 2%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 	text-align: right;
 }
 
+
 .article {
-	width: 33%;
+	width: 30%;
+	padding: 2%;
+	text-align: justify;
 }
 
 .wheelin {
-	width: 33%;
+	width: 35%;
+	padding-right: 7%;
+	padding-left: 2%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+img {
+	height: 98%;
+	width: 98%;
+
 }
