@@ -1,3 +1,4 @@
+<
 .chad {
     /* background-color: #0065B3; */
     height: 624px;;
@@ -78,3 +79,145 @@ li {
     width: 1423px;
     height: 400px;
 }  */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.top {
+	padding-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	line-height: 1.6em;
+	margin-bottom: 100px;
+}
+
+.top h1 {
+	flex-basis: 20%;
+}
+
+.top p {
+	flex-basis: 30%;
+	position: relative;
+	color: gray;
+	left: -50px;
+}
+
+.top button {
+	flex-basis: 10%;
+	height: 40px;
+	border: none;
+	border-radius: 20px;
+	background-color: #ec1c24;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-style: Helvetica, Arial, sans-serif;
+}
+
+.s-row {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.s-img {
+	height: 290px;
+	width: 368px;
+}
+
+.profile-text {
+	background-color: #f2f2f2;
+	padding: 10px;
+	font-style: Helvetica, Arial, sans-serif;
+}
+
+.profile-text h3 {
+	text-transform: uppercase;
+	font-size: 12px;
+	margin: 5px;
+}
+
+.profile-text p {
+	color: gray;
+	font-size: 12px;
+	margin: 5px;
+}
+
+.prof-1-img {
+	background-image: url("img/s-crater.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.profile-2 {
+	margin: 0px 10px;
+}
+
+.prof-2-img {
+	background-image: url("img/s-jupiter.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.prof-3-img {
+	background-image: url("img/s-space-walk.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.prof-4-img {
+	background-image: url("img/s-mars.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.profile-5 {
+	margin: 0px 10px;
+}
+
+.prof-5-img {
+	background-image: url("img/s-shuttle.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.prof-6-img {
+	background-image: url("img/s-moon.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.matt {
+	width: 100%;
+	background: #f9fafc;
+	color: gray;
+	display: flex;
+	justify-content: center;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	line-height: 1.5;
+}
+
+.matt h3 {
+	color: #46464e;
+}
+
+.quote {
+	width: 33%;
+	padding-left: 10%;
+	padding-right: 5%;
+	text-align: right;
+}
+
+.article {
+	width: 33%;
+}
+
+.wheelin {
+	width: 33%;
+}
+>
