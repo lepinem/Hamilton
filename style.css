@@ -1,3 +1,4 @@
+
 body{
 	background: #333333;
 	display: block;
@@ -14,7 +15,88 @@ body{
 
 }
 
-*	{
+
+
+
+.chadText{
+    text-align: center;
+    background-color: #0065B3;
+    padding: 20px 0px;
+    background-image: url("https://spacegrant.arizona.edu/sites/spacegrant.arizona.edu/files/about/logos/nib_print750x627ppi.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bottomListItems {
+    background-color: #0065B3;
+    padding: 10px;
+}
+
+.logo {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.head-p {
+    color: #EB1D21;
+    font-weight: 600;
+    font-size: 30px;
+}
+ul {
+    padding-top: 0;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+li {
+    /* color: #FFFFFF; */
+    font-weight: 600;
+}
+a {
+    color: white;
+}
+.picture {
+  height: 80vh;
+  width: 100%;
+  background-image: url('https://images.template.net/wp-content/uploads/2015/08/Flawless-Free-Space-Background-Download.png');
+  background-size: cover;
+}
+
+/* .chad {
+    background-color: #0065B3;
+    height: 624px;;
+}
+.chadText{
+    text-align: center;
+}
+span {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 60px;
+}
+p {
+    color: #EB1D21;
+    font-weight: 600;
+    font-size: 30px;
+}
+ul {
+    padding-top: 0;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+li {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+ img {
+    width: 1423px;
+    height: 400px;
+}  */
+
+* {
+
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
