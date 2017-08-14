@@ -1,51 +1,51 @@
 
-.chadText{
-    text-align: center;
-    background-color: #0065B3;
-    padding: 20px 0px;
-    background-image: url("https://spacegrant.arizona.edu/sites/spacegrant.arizona.edu/files/about/logos/nib_print750x627ppi.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+.chadText {
+	text-align: center;
+	background-color: #0065b3;
+	padding: 20px 0px;
+	background-image: url("https://spacegrant.arizona.edu/sites/spacegrant.arizona.edu/files/about/logos/nib_print750x627ppi.png");
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 .bottomListItems {
-    background-color: #0065B3;
-    padding: 10px;
+	background-color: #0065b3;
+	padding: 10px;
 }
 
 .logo {
-    color: #FFFFFF;
-    font-weight: 600;
-    font-size: 60px;
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 60px;
 }
 
 .head-p {
-    color: #EB1D21;
-    font-weight: 600;
-    font-size: 30px;
+	color: #eb1d21;
+	font-weight: 600;
+	font-size: 30px;
 }
 ul {
-    padding-top: 0;
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
+	padding-top: 0;
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
 }
 li {
-    /* color: #FFFFFF; */
-    font-weight: 600;
+	/* color: #FFFFFF; */
+	font-weight: 600;
 }
 a {
-    color: white;
+	color: white;
 }
 .picture {
-  height: 80vh;
-  width: 100%;
-  background-image: url('https://images.template.net/wp-content/uploads/2015/08/Flawless-Free-Space-Background-Download.png');
-  background-size: cover;
+	height: 80vh;
+	width: 100%;
+	background-image: url('https://images.template.net/wp-content/uploads/2015/08/Flawless-Free-Space-Background-Download.png');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 * {
-
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
@@ -197,7 +197,7 @@ header {
 	flex-direction: row;
 }
 
-.matt h2{
+.matt h2 {
 	color: #46464e;
 	font-family: 'Roboto', sans-serif;
 	line-height: 1.5;
@@ -206,7 +206,7 @@ header {
 
 .matt h3 {
 	color: #46464e;
-	font-family: 'Roboto',sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 800;
 	font-size: 26px;
 }
